@@ -15,41 +15,40 @@
         <h2> Matrix Style</h2>
     </header>
 
-    <!-- Name of Guessed word displayed above wholeGamebox-->
-
     <div id="wholeGamebox" class="container">
         <h3>
             Press any key to get started!
         </h3>
+
         <div>
+            <!--For Total Wins: Display each time the word was guessed correctly/fully before the # of guesses remaining count down reaches 0-->
             <p>
                 Total Wins:
             </p>
+            <!--For # of Guesses, countdown through an array from 12 to 0
+                This will need to reset to 12 after reaching 0-->
             <p>
                 # of Guesses Remaining:
             </p>
-                </br>
             <p>
                 Letters Already Guessed:
             </p>
+                </br>
             <p>
                 Current Word:
             </p>
+                </br>
             <p class="hangmanWord">
                 _ _ _ _ _ _ _ _ _ _ _ _ _ 
             </p>
         </div>
-        <!--Add 2 section within the wholeGamebox
-            1) Picture
-            2) In decending order
-                a) Wins
-                b) Current word (displayed as _ _ _ _ _ _ _ 
-                c) # of guesses remaining
-                d) letters already guessed (listed concatenated and seperated with commas))
-        
-        -->
+
+        <div class="imageDisplaydiv">
+
+        </div> 
 
     </div>
     
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
 </body>
 </html>
