@@ -1,8 +1,10 @@
 //
 //1) Create an array of words
-var puzzleAnswers = ["morpheus", "trinity", "mr anderson", "bend the spoon", "architect"];
+var puzzleAnswers = ["morpheus", "trinity", "mr anderson", "there is no spoon", "architect", "bullet time", "the twins", "blue pill or red pill", "the oracle", "neo is the one"];
 
 //2) Choose a word at random
+
+
 //3) Display word as underscores in hangmanWord div
 //4) Get user inputer (letters only)
 //5) Determine if guessed letter is correct
